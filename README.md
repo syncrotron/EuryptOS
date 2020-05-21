@@ -15,8 +15,10 @@
 
 Dowloand the Repo.
 
-`cd EuryptOS`
-`cargo xrun`
+```
+cd EuryptOS
+cargo xrun
+```
 
  ## Feature Checklist
  * ~~Boots~~
