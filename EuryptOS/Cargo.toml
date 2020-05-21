@@ -4,11 +4,5 @@ version = "0.1.0"
 authors = ["shorovatin"]
 edition = "2018"
 
-
-[profile.dev] #For 'cargo build'
-panic = "abort" #Stops rust from unwinding, which requires OS specific stuff
-
-[profile.release] #For 'cargo build --release'
-panic = "abort" # Stops rust from unwinding, which requires OS specific stuff
-
 [dependencies]
+bootloader = "0.9.3"

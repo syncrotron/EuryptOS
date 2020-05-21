@@ -1,0 +1,7 @@
+cargo:rerun-if-changed=/Users/shorovatin/Documents/EuryptOS/EuryptOS/Cargo.toml
+cargo:rustc-link-search=native=/Users/shorovatin/Documents/EuryptOS/EuryptOS/target/bootimage/bootloader/x86_64-bootloader/release/build/bootloader-22a7797990135d28/out
+cargo:rustc-link-lib=static=kernel_bin-eurypt_os
+cargo:rerun-if-env-changed=KERNEL
+cargo:rerun-if-env-changed=KERNEL_MANIFEST
+cargo:rerun-if-changed=/Users/shorovatin/Documents/EuryptOS/EuryptOS/target/x86_64-eurypt_os/debug/eurypt_os
+cargo:rerun-if-changed=build.rs
